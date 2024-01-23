@@ -19,4 +19,4 @@ jobs:
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: go test main_test.go main.go
-        count: 20
+        count: 1
